@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using WheelWizard.Helpers;
@@ -107,4 +107,6 @@ public partial class OtherSettings : UserControl
     {
         await RetroRewindInstaller.ReinstallRR();
     }
+
+    private void ClickEnableRichPresence(object sender, RoutedEventArgs e) {}
 }
