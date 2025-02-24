@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <root>
     <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <xsd:element name="root" msdata:IsDataSet="true">
-            
         </xsd:element>
     </xsd:schema>
     <resheader name="resmimetype">
@@ -18,6 +16,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+    <!-- Existing entries -->
     <data name="Option_WhWzLanguage" xml:space="preserve">
         <value>Wheel Wizard Language</value>
     </data>
@@ -218,5 +217,11 @@
     </data>
     <data name="Option_Reinstall" xml:space="preserve">
         <value>Reinstall RR</value>
+    </data>
+    <data name="Option_EnableRichPresence" xml:space="preserve">
+        <value>Enable Discord Rich Presence</value>
+    </data>
+    <data name="InfoText_EnableRichPresence" xml:space="preserve">
+        <value>Enables Discord Rich Presence to show your game activity.</value>
     </data>
 </root>
